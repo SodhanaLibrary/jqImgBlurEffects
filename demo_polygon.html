@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style>
+.exampleDiv{
+  margin:auto;
+  margin-bottom:10px;
+  width:750px;
+}
+</style>
+<link rel="stylesheet" href="jqImgBlurEffects/jqImgBlurEffects.css" />
+<title>jqImgBlurEffects - DEMO</title>
+</head>
+<body>
+	<div class="exampleDiv">
+	    <img src="https://lh3.googleusercontent.com/-Ui6RscNDK5Y/VyGE_3PHZVI/AAAAAAAADk8/ClRt_9OSrqc1Q7VOznY7ySnzGS8t8qvtwCCo/s912/house.JPG" class="myImg" width="750px"/>
+	</div>
+</body>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jqImgBlurEffects/jqImgBlurEffects.js"></script>
+<script>
+$(function() {
+	   var myOptns = {
+			stdDeviation : 4,
+			spolygons : [ {
+				points:"170 140 585 140 585 350 170 350"
+			} ],
+			stexts : [ {
+				text : 'Can any body gift this home to me',
+				style : 'left: 106px;top: 403px;font-size: xx-large;color: aliceblue;font-family:cursive'
+			} ]
+		};
+
+		$(".myImg").jqImgBlur(myOptns);
+});
+</script>
+</html>

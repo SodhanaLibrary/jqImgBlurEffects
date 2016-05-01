@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style>
+.exampleDiv{
+  margin:auto;
+  margin-bottom:10px;
+  width:750px;
+}
+</style>
+<link rel="stylesheet" href="jqImgBlurEffects/jqImgBlurEffects.css" />
+<title>jqImgBlurEffects - DEMO</title>
+</head>
+<body>
+	<div class="exampleDiv">
+	    <img src="https://lh3.googleusercontent.com/-zJ3ijSNpElc/VyGE80Uo5PI/AAAAAAAADk4/w2cGycz0gIoGz5HDci02WU70uXqJnhYAgCCo/s912/inNature.JPG" class="myImg" width="750px"/>
+	</div>
+</body>
+<script src="jquery-1.11.3.min.js"></script>
+<script src="jqImgBlurEffects/jqImgBlurEffects.js"></script>
+<script>
+$(function() {
+	   var myOptns = {
+			stdDeviation : 7,
+			scircles : [ {
+				cx : 177,
+				cy : 166,
+				r : 150
+			} ],
+			stexts : [ {
+				text : 'That awesome feel of being in nature',
+				style : 'left: 341px;top: 214px;font-size: xx-large;color: aliceblue;font-family: cursive;'
+			} ]
+		};
+
+		$(".myImg").jqImgBlur(myOptns);
+});
+</script>
+</html>

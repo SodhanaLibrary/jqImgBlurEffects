@@ -1,0 +1,25 @@
+.jqImgBlurPic {
+    text-align: center;
+    position: relative;
+}
+.jqImgBlurPic .blur {
+    height: 100%;
+}
+.jqImgBlurPic .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+}
+.jqImgBlurPic circle, .jqImgBlurPic rect, .jqImgBlurPic ellipse, .jqImgBlurPic polygon, .jqImgBlurPic path {
+   opacity: 1;
+   -webkit-transition: all 2000ms linear;
+   transition: all 2000ms linear;
+}
+.jqImgBlurPic .textClass {
+   color: aliceBlue;
+   position: absolute;
+   font-weight: bold;
+   font-family:cursive;
+   font-size: x-large;
+}
