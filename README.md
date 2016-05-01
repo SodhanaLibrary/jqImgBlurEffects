@@ -32,5 +32,5 @@ This plugin supports svg shapes - circle, ellipse, rectangle for click functiona
 ##Introduction To Parts Of Image
 This plugin supports svg shapes - circle, ellipse, rectangle for this functionaliy. Read [this article](http://blog.sodhanalibrary.com/2016/05/jqimgblureffects-step-by-step.html) for detailed explanation
 ###Examples
-1. Circle - [DEMO] (http://demo.sodhanalibrary.com/jqImgBlurEffects/demo_inroduction.html)
+1. Circle - [DEMO] (http://demo.sodhanalibrary.com/jqImgBlurEffects/demo_introduction.html)
 
